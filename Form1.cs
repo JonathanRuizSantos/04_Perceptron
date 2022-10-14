@@ -19,12 +19,30 @@ namespace Perceptron
                     TablaDeVerdad(2, 4);
                     LlenarTabla(4);
                 }
-                else if (cBProblemas.Text == "OR") {  }
-                else if (cBProblemas.Text == "XOR") {  }
-                else if (cBProblemas.Text == "Mayoria Simple") {  }
-                else if (cBProblemas.Text == "Paridad") {  }
-                else if (cBProblemas.Text == "Ejercicio") {  }
-                else { }
+                else if (cBProblemas.Text == "OR")
+                {
+                
+                }
+                else if (cBProblemas.Text == "XOR")
+                {
+                
+                }
+                else if (cBProblemas.Text == "Mayoria Simple")
+                {
+                
+                }
+                else if (cBProblemas.Text == "Paridad")
+                {
+                
+                }
+                else if (cBProblemas.Text == "Ejercicio")
+                {
+                
+                }
+                else 
+                {
+                    MessageBox.Show("Opcion no valida");
+                }
             }
             catch
             {

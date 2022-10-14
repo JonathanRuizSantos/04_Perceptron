@@ -15,3 +15,37 @@ E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\obj\Debug\n
 E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\obj\Debug\net6.0-windows\Perceptron.pdb
 E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\obj\Debug\net6.0-windows\Perceptron.genruntimeconfig.cache
 E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\obj\Debug\net6.0-windows\ref\Perceptron.dll
+C:\Users\jon_r\Downloads\Perceptron\bin\Debug\net6.0-windows\Perceptron.exe
+C:\Users\jon_r\Downloads\Perceptron\bin\Debug\net6.0-windows\Perceptron.deps.json
+C:\Users\jon_r\Downloads\Perceptron\bin\Debug\net6.0-windows\Perceptron.runtimeconfig.json
+C:\Users\jon_r\Downloads\Perceptron\bin\Debug\net6.0-windows\Perceptron.dll
+C:\Users\jon_r\Downloads\Perceptron\bin\Debug\net6.0-windows\Perceptron.pdb
+C:\Users\jon_r\Downloads\Perceptron\obj\Debug\net6.0-windows\Perceptron.csproj.AssemblyReference.cache
+C:\Users\jon_r\Downloads\Perceptron\obj\Debug\net6.0-windows\Perceptron.Form1.resources
+C:\Users\jon_r\Downloads\Perceptron\obj\Debug\net6.0-windows\Perceptron.csproj.GenerateResource.cache
+C:\Users\jon_r\Downloads\Perceptron\obj\Debug\net6.0-windows\Perceptron.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jon_r\Downloads\Perceptron\obj\Debug\net6.0-windows\Perceptron.AssemblyInfoInputs.cache
+C:\Users\jon_r\Downloads\Perceptron\obj\Debug\net6.0-windows\Perceptron.AssemblyInfo.cs
+C:\Users\jon_r\Downloads\Perceptron\obj\Debug\net6.0-windows\Perceptron.csproj.CoreCompileInputs.cache
+C:\Users\jon_r\Downloads\Perceptron\obj\Debug\net6.0-windows\Perceptron.dll
+C:\Users\jon_r\Downloads\Perceptron\obj\Debug\net6.0-windows\refint\Perceptron.dll
+C:\Users\jon_r\Downloads\Perceptron\obj\Debug\net6.0-windows\Perceptron.pdb
+C:\Users\jon_r\Downloads\Perceptron\obj\Debug\net6.0-windows\Perceptron.genruntimeconfig.cache
+C:\Users\jon_r\Downloads\Perceptron\obj\Debug\net6.0-windows\ref\Perceptron.dll
+C:\Users\jon_r\OneDrive - Instituto Politecnico Nacional\IPN 9\Agentes Inteligentes Expertos\Códigos\04_Perceptron\bin\Debug\net6.0-windows\Perceptron.exe
+C:\Users\jon_r\OneDrive - Instituto Politecnico Nacional\IPN 9\Agentes Inteligentes Expertos\Códigos\04_Perceptron\bin\Debug\net6.0-windows\Perceptron.deps.json
+C:\Users\jon_r\OneDrive - Instituto Politecnico Nacional\IPN 9\Agentes Inteligentes Expertos\Códigos\04_Perceptron\bin\Debug\net6.0-windows\Perceptron.runtimeconfig.json
+C:\Users\jon_r\OneDrive - Instituto Politecnico Nacional\IPN 9\Agentes Inteligentes Expertos\Códigos\04_Perceptron\bin\Debug\net6.0-windows\Perceptron.dll
+C:\Users\jon_r\OneDrive - Instituto Politecnico Nacional\IPN 9\Agentes Inteligentes Expertos\Códigos\04_Perceptron\bin\Debug\net6.0-windows\Perceptron.pdb
+C:\Users\jon_r\OneDrive - Instituto Politecnico Nacional\IPN 9\Agentes Inteligentes Expertos\Códigos\04_Perceptron\obj\Debug\net6.0-windows\Perceptron.csproj.AssemblyReference.cache
+C:\Users\jon_r\OneDrive - Instituto Politecnico Nacional\IPN 9\Agentes Inteligentes Expertos\Códigos\04_Perceptron\obj\Debug\net6.0-windows\Perceptron.Form1.resources
+C:\Users\jon_r\OneDrive - Instituto Politecnico Nacional\IPN 9\Agentes Inteligentes Expertos\Códigos\04_Perceptron\obj\Debug\net6.0-windows\Perceptron.csproj.GenerateResource.cache
+C:\Users\jon_r\OneDrive - Instituto Politecnico Nacional\IPN 9\Agentes Inteligentes Expertos\Códigos\04_Perceptron\obj\Debug\net6.0-windows\Perceptron.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jon_r\OneDrive - Instituto Politecnico Nacional\IPN 9\Agentes Inteligentes Expertos\Códigos\04_Perceptron\obj\Debug\net6.0-windows\Perceptron.AssemblyInfoInputs.cache
+C:\Users\jon_r\OneDrive - Instituto Politecnico Nacional\IPN 9\Agentes Inteligentes Expertos\Códigos\04_Perceptron\obj\Debug\net6.0-windows\Perceptron.AssemblyInfo.cs
+C:\Users\jon_r\OneDrive - Instituto Politecnico Nacional\IPN 9\Agentes Inteligentes Expertos\Códigos\04_Perceptron\obj\Debug\net6.0-windows\Perceptron.csproj.CoreCompileInputs.cache
+C:\Users\jon_r\OneDrive - Instituto Politecnico Nacional\IPN 9\Agentes Inteligentes Expertos\Códigos\04_Perceptron\obj\Debug\net6.0-windows\Perceptron.dll
+C:\Users\jon_r\OneDrive - Instituto Politecnico Nacional\IPN 9\Agentes Inteligentes Expertos\Códigos\04_Perceptron\obj\Debug\net6.0-windows\refint\Perceptron.dll
+C:\Users\jon_r\OneDrive - Instituto Politecnico Nacional\IPN 9\Agentes Inteligentes Expertos\Códigos\04_Perceptron\obj\Debug\net6.0-windows\Perceptron.pdb
+C:\Users\jon_r\OneDrive - Instituto Politecnico Nacional\IPN 9\Agentes Inteligentes Expertos\Códigos\04_Perceptron\obj\Debug\net6.0-windows\Perceptron.genruntimeconfig.cache
+C:\Users\jon_r\OneDrive - Instituto Politecnico Nacional\IPN 9\Agentes Inteligentes Expertos\Códigos\04_Perceptron\obj\Debug\net6.0-windows\ref\Perceptron.dll

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\USER\\Documents\\Esime\\9º semestre\\Agentes inteligentes\\Perceptron\\Perceptron.csproj": {}
+    "D:\\Codigos\\Agentes Inteligentes Expertos\\04_Perceptron\\Perceptron.csproj": {}
   },
   "projects": {
-    "E:\\USER\\Documents\\Esime\\9º semestre\\Agentes inteligentes\\Perceptron\\Perceptron.csproj": {
+    "D:\\Codigos\\Agentes Inteligentes Expertos\\04_Perceptron\\Perceptron.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\USER\\Documents\\Esime\\9º semestre\\Agentes inteligentes\\Perceptron\\Perceptron.csproj",
+        "projectUniqueName": "D:\\Codigos\\Agentes Inteligentes Expertos\\04_Perceptron\\Perceptron.csproj",
         "projectName": "Perceptron",
-        "projectPath": "E:\\USER\\Documents\\Esime\\9º semestre\\Agentes inteligentes\\Perceptron\\Perceptron.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "E:\\USER\\Documents\\Esime\\9º semestre\\Agentes inteligentes\\Perceptron\\obj\\",
+        "projectPath": "D:\\Codigos\\Agentes Inteligentes Expertos\\04_Perceptron\\Perceptron.csproj",
+        "packagesPath": "C:\\Users\\jon_r\\.nuget\\packages\\",
+        "outputPath": "D:\\Codigos\\Agentes Inteligentes Expertos\\04_Perceptron\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jon_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
