@@ -1,0 +1,17 @@
+E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\bin\Debug\net6.0-windows\Perceptron.exe
+E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\bin\Debug\net6.0-windows\Perceptron.deps.json
+E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\bin\Debug\net6.0-windows\Perceptron.runtimeconfig.json
+E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\bin\Debug\net6.0-windows\Perceptron.dll
+E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\bin\Debug\net6.0-windows\Perceptron.pdb
+E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\obj\Debug\net6.0-windows\Perceptron.csproj.AssemblyReference.cache
+E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\obj\Debug\net6.0-windows\Perceptron.Form1.resources
+E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\obj\Debug\net6.0-windows\Perceptron.csproj.GenerateResource.cache
+E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\obj\Debug\net6.0-windows\Perceptron.GeneratedMSBuildEditorConfig.editorconfig
+E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\obj\Debug\net6.0-windows\Perceptron.AssemblyInfoInputs.cache
+E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\obj\Debug\net6.0-windows\Perceptron.AssemblyInfo.cs
+E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\obj\Debug\net6.0-windows\Perceptron.csproj.CoreCompileInputs.cache
+E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\obj\Debug\net6.0-windows\Perceptron.dll
+E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\obj\Debug\net6.0-windows\refint\Perceptron.dll
+E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\obj\Debug\net6.0-windows\Perceptron.pdb
+E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\obj\Debug\net6.0-windows\Perceptron.genruntimeconfig.cache
+E:\USER\Documents\Esime\9º semestre\Agentes inteligentes\Perceptron\obj\Debug\net6.0-windows\ref\Perceptron.dll
