@@ -2,9 +2,15 @@ namespace Perceptron
 {
     public partial class Form1 : Form
     {
+        int entradas;
+        double filas;
         double aux_ceros = 1;
         double aux_ceros2 = 1;
         int avanzaCelda;
+        int valor1;
+        string valor2;
+        double salida_Y = 0;
+        double valor2_double;
         public Form1()
         {
             InitializeComponent();
@@ -14,26 +20,45 @@ namespace Perceptron
         {
             try
             {
+                limpia();
+
                 if (cBProblemas.Text == "AND") 
-                { 
-                    TablaDeVerdad(2, 4);
-                    LlenarTabla(4);
+                {
+                    entradas = 2;
+                    filas = Math.Pow(2, entradas);
+                    TablaDeVerdad(entradas, filas);
+                    LlenarTabla(entradas, filas);
+                    Y_esperada(1,entradas,1);
                 }
                 else if (cBProblemas.Text == "OR")
                 {
-                
+                    entradas = 2;
+                    filas = Math.Pow(2, entradas);
+                    TablaDeVerdad(entradas, filas);
+                    LlenarTabla(entradas, filas);
+                    Y_esperada(0, entradas, 1);
                 }
                 else if (cBProblemas.Text == "XOR")
                 {
-                
+                    entradas = 2;
+                    filas = Math.Pow(2, entradas);
+                    TablaDeVerdad(entradas, filas);
+                    LlenarTabla(entradas, filas);
+                    Y_esperada(1, entradas, 1);
                 }
                 else if (cBProblemas.Text == "Mayoria Simple")
                 {
-                
+                    entradas = 3;
+                    filas = Math.Pow(2, entradas);
+                    TablaDeVerdad(entradas, filas);
+                    LlenarTabla(entradas, filas);
                 }
                 else if (cBProblemas.Text == "Paridad")
                 {
-                
+                    entradas = 4;
+                    filas = Math.Pow(2, entradas);
+                    TablaDeVerdad(entradas, filas);
+                    LlenarTabla(entradas, filas);
                 }
                 else if (cBProblemas.Text == "Ejercicio")
                 {
@@ -54,16 +79,21 @@ namespace Perceptron
         {
             Random umbral = new Random();
             Random pesos = new Random();
-            //random.Next(0, 1);
-            //lBResultados.(random);
             var valorUmbral = umbral.NextDouble();
-            var valorPesos = pesos.Next(0, 2);
-            MessageBox.Show(valorPesos.ToString());
+            var valorPesos = 0;
+
+            int[] pesos_array = new int[entradas];
+
+            for(int i = 0; i < pesos_array.Length; i++)
+            {
+                valorPesos = pesos.Next(0, 2);
+                pesos_array[i] = valorPesos;
+            }
         }
 
-        public void TablaDeVerdad(double n, double filas)
+        public void TablaDeVerdad(int entradas, double filas)
         {
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < entradas; i++)
             {
                 dGVTablaVerdad.Columns.Add(new DataGridViewTextBoxColumn() { HeaderText = "X" + (i + 1).ToString() });
             }
@@ -73,15 +103,12 @@ namespace Perceptron
                 j = dGVTablaVerdad.Rows.Add(new DataGridViewRow());
             }
 
-            dGVTablaVerdad.Columns.Add(new DataGridViewTextBoxColumn() { HeaderText = "Y" });
+            dGVTablaVerdad.Columns.Add(new DataGridViewTextBoxColumn() { HeaderText = "Yesperada" });
+            dGVTablaVerdad.Columns.Add(new DataGridViewTextBoxColumn() { HeaderText = "Ycalculada" });
         }
 
-
-
-        public void LlenarTabla(int entradas)
+        public void LlenarTabla(int entradas, double filas)
         {
-            double filas;
-            filas = Math.Pow(2, entradas);
             avanzaCelda = entradas - 1;
 
             for (int i = 0; i < filas; i++)
@@ -96,7 +123,6 @@ namespace Perceptron
                 // Ciclo que pone 1 en el Datagrid de la tabla de verdad
                 for (int b = 0; b < aux_ceros; b++)
                 {
-
                     dGVTablaVerdad.Rows[i].Cells[avanzaCelda].Value = "1";
                     i++;
                 }
@@ -111,6 +137,48 @@ namespace Perceptron
                     aux_ceros2++;
                 }
             }
+        }
+        public void limpia()
+        {
+            dGVTablaVerdad.Rows.Clear();
+            dGVTablaVerdad.Columns.Clear();
+            lBResultados.Items.Clear();
+            aux_ceros = 1;
+            aux_ceros2 = 1;
+
+        }
+
+        public void Y_esperada(double umbral, int entradas, int peso1)
+        {
+            int ultimoRenglon = entradas;
+
+            
+            // Este ciclo recorre las filas
+            for (int a = 0; a < filas; a++)
+            {
+                // Este ciclo recorre las columnas
+                for (int i = 0; i < entradas; i++)
+                {
+                    // Obtencion de los valores del datagrid de Pesos
+                    valor1 = peso1;
+                    valor2 = (string)dGVTablaVerdad.Rows[a].Cells[i].Value;
+                    valor2_double = double.Parse(valor2);
+                    // Obtencion del valor de la suma por renglon
+                    salida_Y = salida_Y + (valor1 * valor2_double);
+                }
+                
+                // Evalua el estado del umbral
+                if (salida_Y > umbral)
+                {
+                    dGVTablaVerdad.Rows[a].Cells[ultimoRenglon].Value = "1";
+                    salida_Y = 0;
+                }
+                else
+                {
+                    dGVTablaVerdad.Rows[a].Cells[ultimoRenglon].Value = "0";
+                    salida_Y = 0;
+                }
+            }   
         }
     }
 }

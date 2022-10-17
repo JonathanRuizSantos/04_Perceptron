@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Codigos\\Agentes Inteligentes Expertos\\04_Perceptron\\Perceptron.csproj",
+      "projectUniqueName": "D:\\Codigos\\Agentes_Inteligentes_Expertos\\04_Perceptron\\Perceptron.csproj",
       "projectName": "Perceptron",
-      "projectPath": "D:\\Codigos\\Agentes Inteligentes Expertos\\04_Perceptron\\Perceptron.csproj",
+      "projectPath": "D:\\Codigos\\Agentes_Inteligentes_Expertos\\04_Perceptron\\Perceptron.csproj",
       "packagesPath": "C:\\Users\\jon_r\\.nuget\\packages\\",
-      "outputPath": "D:\\Codigos\\Agentes Inteligentes Expertos\\04_Perceptron\\obj\\",
+      "outputPath": "D:\\Codigos\\Agentes_Inteligentes_Expertos\\04_Perceptron\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

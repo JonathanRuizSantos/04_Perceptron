@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IL02FUODcvCnfX1tyfnt46XTf8XiLowsJUNOjB1AzpE82RMoJnXWY0FkDsQsj06+IUe1ix171AndFKaR1s/j7g==",
+  "dgSpecHash": "alBy1rbgmeoucReCsSeJzZq2HsVRwEuSHgvnJmbfKGpXKgpSiWSMNHUUPqPZ+Z88OwGmd34OJwTgW3w9q4wImw==",
   "success": true,
-  "projectFilePath": "D:\\Codigos\\Agentes Inteligentes Expertos\\04_Perceptron\\Perceptron.csproj",
+  "projectFilePath": "D:\\Codigos\\Agentes_Inteligentes_Expertos\\04_Perceptron\\Perceptron.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
